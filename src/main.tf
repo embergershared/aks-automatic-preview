@@ -71,7 +71,7 @@ resource "azurerm_kubernetes_cluster" "aks_auto" {
     max_pods                     = 250
     min_count                    = null
     name                         = "systempool"
-    node_count                   = 3
+    node_count                   = 1
     node_labels                  = {}
     only_critical_addons_enabled = true
     orchestrator_version         = "1.28"
